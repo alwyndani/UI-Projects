@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+
+i {
+    font-size: 10px;
+}
+
+.apply {
+    text-align: end;
+}
+
+.applybtn {
+    background-color: #fd5f00;
+    color: white;
+    padding: 10px 24px;
+    border: none;
+}
+
+.fox h1 {
+    margin: 0;
+    height: 43px;
+}
+
+.fox i {
+    margin-left: -7px;
+}
+
+.fox h5 {
+    font-size: 13px;
+    letter-spacing: 2.4px;
+}
+
+.needs i {
+    color: #fd5f00;
+}
+
+.navbar-bg {
+    background-color: #0d1128;
+    padding: 16px;
+}
+
+.Searchbar input::placeholder {
+    color: white;
+    opacity: 75%;
+}
+
+.firstimg-sec {
+    position: relative;
+}
+
+.firstimg-sec .img {
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(0, #0d112890, #fd5f0070), url('https://technext.github.io/fox/images/bg_2.jpg');
+    background-size: cover;
+}
+
+.firstimg-sec-text {
+    position: absolute;
+    top: 10rem;
+    left: 7rem;
+}
+
+.firstimg-sec h1 {
+    font-size: 52px;
+}
+
+.contact-btn {
+    background-color: #fd5f00;
+    color: white;
+    padding: 14px;
+}
+
+/*Information*/
+
+
+.odd-cards {
+    background-color: #fd5f00;
+    height: 20.5rem;
+}
+
+.odd-cards i {
+    color: white;
+}
+
+.odd-cards p {
+font-size: 14px;
+}
+
+.even-cards {
+    background-color: #0d1128;
+    height: 20.5rem;
+}
+
+.even-cards i {
+    color: white;
+}
+
+.even-cards p {
+    font-size: 14px;
+}
+
+.col-3 {
+    padding: 0;
+}
+
+.SecImg-Sec {
+    
+}
+
+.SecImg-Sec img {
+    width: 100%;
+}
+
+.wrapper-outer {
+    height:100vh;
+    overflow: hidden;
+}
+
+.wrapper {
+    height: 100%;
+    overflow-x: hidden;
+    perspective: 1px;
+}
+
+.parallax-section {
+     min-height: 100vh;
+     padding: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 100vw;
+     position: relative;
+     overflow: hidden;
+     height: 47rem;
+     transform-style: preserve-3d;
+}
+
+.parallax-bg {
+    /* background-image: url('https://technext.github.io/fox/images/bg_3.jpg'); */
+    position: absolute;
+    left : 0;
+    top: 0;
+    right: 0;
+    bottom: 0; 
+    background-size: cover;
+    background-position: center center;
+    /* z-index: -1; */
+    min-height: 100%;
+    background: linear-gradient(0, #0d112899, #fd5f0099), url('https://technext.github.io/fox/images/bg_3.jpg');
+    background-size: cover;
+    transform:translate3d(0,0,-1px) scale(1);
+}
+
+.cont1 {
+    margin-top: 6.5rem;
+}
+
+.vedio-Img {
+    background-image: url('https://technext.github.io/fox/images/about-2.jpg');
+    background-size: cover;
+    height: 24rem;
+}
+
+
+/*Our Courses*/
+
+
+.Four-images img {
+    height: 17.5rem;
+    width: 100%;
+}
+
+.Four-images .card {
+   border: none;
+}
+
+.Four-images button {
+   background-color: #fd5f00;
+   color: white;
+   padding: 8px 20px;
+   border: none;
+   border-radius: 20px;
+}
+
+.Four-images .card-body {
+  padding: 0%;
+  margin-top: 23px;
+}
+
+.Four-Images-Para p {
+   opacity: 75%;
+   line-height: 30px;
+   font-size: 18px;
+}
+
+.Four-images .col-3 {
+   padding: 14px;
+}
+
+.Four-images .box {
+   display: inline-grid;
+   text-align: center;
+   width: auto;
+   color: white;
+   padding: 7px;
+}
+
+
+/*Form Section*/
+
+#request {
+    background: linear-gradient(90deg, #fd5f0099, #0d112899), url('https://technext.github.io/fox/images/bg_5.jpg');
+    height: 650px;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.form-box {
+    width: 480px;
+    margin-left: auto;
+}
+
+.form-box button {
+    background-color: #fd5f00;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 32px;
+}
+
+#request input,#request select,#request textarea {
+    background: none;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 10px 0;
+    width: 100%;
+}
+
+option {
+    color: #000000;
+}
+
+#request ::placeholder {
+    color: white;
+    
+}
+
+#request input,#request select,#request textarea, #request option:focus {
+    outline: none;
+}
+
+/* Student Says About Us */
+
+.Courses-Sec {
+    padding: 115px ;
+}
+
+.Courses-Sec h1 {
+    padding-bottom: 35px;
+    font-size: 45px;
+}
+
+.carousel-imgs img {
+    width: 110px;
+    height: fit-content;
+    border-radius: 225px;
+}
+
+#carouselExampleIndicators {
+    width: 35rem;
+    margin: auto;
+    padding-top: inherit;
+    padding-bottom: inherit;
+}
+
+#carouselExampleIndicators .carousel-indicators button{
+     background-color: black;
+     opacity: 50%;
+     
+}
+
+/* last-sec-images */
+
+.last-sec-images img {
+    width: 100%;
+    height: 22rem;
+}
+
+
+
+/* Subscribe */
+
+#subscribe .container-fluid {
+    height: 115vh;
+    background-color: #232323
+}
+
+.subscribe-cont .row {
+  padding-top: 6rem;
+}
+
+/*links*/
+.links  {
+    font-size: 14px;
+}
+
+
+.form-group input:first-child {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+border: none;
+padding: 16px;
+text-align: center;
+}
+
+
+
+.form-group input::placeholder {
+    color: white;
+    opacity: 50%;
+}
+
+.sec-input {
+    background-color: #5d50c6;
+}
+
+.Connect-ul span { 
+    background-color:rgba(255, 255, 255, 0.1) ;
+    padding: 10px;
+    border-radius: 18px;
+}
