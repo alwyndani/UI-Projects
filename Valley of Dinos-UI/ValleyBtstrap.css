@@ -1,0 +1,20 @@
+.link-section a {
+  text-decoration: none;
+  color: deeppink;
+  font-weight: 600;
+}
+
+.firstdiv {
+   height: 11.5rem;
+}
+
+.round {
+    width: 60px;
+    height: 60px;
+    background-color: #008ba7;
+    margin-top: 50px;
+}
+
+.dummy {
+    background-color: #008ba7;
+}
