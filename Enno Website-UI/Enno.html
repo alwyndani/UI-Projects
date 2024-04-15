@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Enno Website</title>
+        <link rel="stylesheet" href="Enno.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        >
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        >
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+            integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        >
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+            integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        >
+    </head>
+    <body>
+        <!-- Navbar -->
+        <section>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light bg-white fixed-top">
+                <div class="container nav-cont">
+                    <div>
+                        <a class="navbar-brand" href="#">eNno</a>
+                    </div>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse pe-2" id="navbarNavDropdown">
+                        <ul class="navbar-nav ms-auto fs-6">
+                            <li class="nav-item">
+                                <a
+                                    style="color: #16df7e!important;"
+                                    class="nav-link active pe-4"
+                                    aria-current="page"
+                                    href="#"
+                                >Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pe-4" href="#About">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pe-4" href="#Services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pe-4" href="#Portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pe-4" href="#Team">Team</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link pe-4"
+                                    href="#"
+                                    id="navbarDropdownMenuLink"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Drop Down
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li>
+                                        <a class="dropdown-item" href="#">Action</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pe-4" href="#Contact">Contact</a>
+                            </li>
+                        </ul>
+                        <button type="submit" class="btn btn-primary start">Get Started</button>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!-- About -->
+        <section id="About">
+            <div class="container about">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1 style="font-size: 50px; opacity: 85%; margin-top: 80px;" class=" pt-5 pb-2 lh-1">
+                            Elegant and creative
+                            <br>
+                            solutions
+                        </h1>
+                        <p style="line-height: 30px;" class=" fs-4 text-secondary">
+                            We are team of talented designers making
+                            <br>
+                            websites with Bootstrap
+                        </p>
+                        <div class="d-flex align-items-center py-3">
+                            <button type="submit" class="btn btn-success get-btn ">Get Started</button>
+                            <div class="watch ">
+                                <i class="fa-regular fa-circle-play fs-2 ps-4 pe-2 text-secondary"></i>
+                                <span class=" text-secondary">Watch Vedio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="motionpic" src="https://bootstrapmade.com/demo/templates/eNno/assets/img/hero-img.png" style="width: 100%; height: 26rem;">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Card -->
+        <section style="margin-top: 80px;">
+            <div class="container ">
+                <div class="row Card">
+                    <div class="col-md-4">
+                        <div class="card Card-card p-3">
+                            <i class="fa-solid fa-laptop my-3"></i>
+                            <h5 class="py-2">Lorem Ipsum</h5>
+                            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card p-3">
+                            <i class="fa-solid fa-table-list my-3"></i>
+                            <h5 class="py-2">Dolor Sitema</h5>
+                            <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card p-3">
+                            <i class="fa-regular fa-clipboard my-3"></i>
+                            <h5 class="py-2">Sed ut perspiciatis</h5>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-4">
+                    <div class="col-lg-6 py-5">
+                        <center>
+                            <img src="https://bootstrapmade.com/demo/templates/eNno/assets/img/about.png" width="100%">
+                        </center>
+                    </div>
+                    <div class="col-lg-6 Voluptatem">
+                        <br>
+                        <h2>
+                            Voluptatem dignissimos provident
+                            <br>
+                            quasi corporis voluptates
+                        </h2>
+                        <i class="italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</i>
+                        <br>
+                        <br>
+                        <p>
+                            <i class="fa solid fa-check mark rounded-circle"></i>
+                            &nbsp;&nbsp;Ullamco laboris nisi ut aliquip ex ea commodo consequat
+                        </p>
+                        <p>
+                            <i class="fa solid fa-check mark rounded-circle"></i>
+                            &nbsp;&nbsp;Duis aute irure dolor in reprehenderit in voluptate velit
+                        </p>
+                        <p>
+                            <i class="fa solid fa-check mark rounded-circle"></i>
+                            &nbsp;&nbsp;Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda
+                        </p>
+                        <p class="pt-2">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div>
+                </div>
+                <div class="container number">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <center>
+                                <h2>232</h2>
+                                <p>Clients</p>
+                            </center>
+                        </div>
+                        <div class="col-lg-3">
+                            <center>
+                                <h2>521</h2>
+                                <p>Projects</p>
+                            </center>
+                        </div>
+                        <div class="col-lg-3">
+                            <center>
+                                <h2>1463</h2>
+                                <p>Hours Of Support</p>
+                            </center>
+                        </div>
+                        <div class="col-lg-3">
+                            <center>
+                                <h2>15</h2>
+                                <p>Hard Workers</p>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services -->
+        <section id="Services" class="services">
+            <div class="container text-center">
+                <h1 class="behind">
+                    <b>SERVICES</b>
+                </h1>
+                <h3 class="front fs-2">
+                    <b>SERVICES</b>
+                </h3>
+                <P class="text-center pt-4 pb-3">Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</P>
+                <div class="row services-row mx-2">
+                    <div class="col-md-4">
+                        <div class="card" style="background-color: white;">
+                            <i class="fa-solid fa-volleyball"></i>
+                            <h5 class="py-3">Lorem Ipsum</h5>
+                            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card " style="background-color: white;">
+                            <i class="fa-regular fa-file-lines"></i>
+                            <h5 class="py-3">Dolor Sitema</h5>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="background-color: white;">
+                            <i class="fa-solid fa-gauge-high"></i>
+                            <h5 class="py-3">Sed ut perspiciatis</h5>
+                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 my-4">
+                        <div class="card mb-5" style="background-color: white;">
+                            <i class="fa-solid fa-volleyball"></i>
+                            <h5 class="py-3">Nemo Enim</h5>
+                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 my-4">
+                        <div class="card " style="background-color: white;">
+                            <i class="fa-brands fa-slideshare"></i>
+                            <h5 class="py-3">Dele cardo</h5>
+                            <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 my-4">
+                        <div class="card" style="background-color: white;">
+                            <i class="fa-solid fa-archway"></i>
+                            <h5 class="py-3">Divera don</h5>
+                            <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio -->
+        <section id="Portfolio">
+            <div class="container-fluid">
+                <h1 style="padding-top: 60px;" class="behind">
+                    <b>PORTFOLIO</b>
+                </h1>
+                <h3 class="front fs-2">
+                    <b>PORTFOLIO</b>
+                </h3>
+                <P class="text-center pt-4 pb-3">Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</P>
+                <ul style="list-style-type: none;" class="d-flex port-ul justify-content-center fw-bold">
+                    <li style="color:#16df7e" class="p-2 port-one">All</li>
+                    <li class="p-2">App</li>
+                    <li class="p-2">Card</li>
+                    <li class="p-2">Web</li>
+                </ul>
+                <div class="container">
+                    <div class="row tabcontent" id="all">
+                        <div class="col-lg-4 p-0">
+                            <div style="position: relative;" class="row img1 py-3">
+                                <img src="https://bootstrapmade.com/demo/templates/eNno/assets/img/portfolio/portfolio-1.jpg" width="100%">
+                                <div class="pop">
+                                    <div class="d-flex justify-content-between p-2">
+                                        <div class="app1 d-block">
+                                            <h5>App 1</h5>
+                                            <p>App</p>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <i class="fa-solid fa-plus tab-icon">
+                                                <div class="box-icon1">
+                                                    <p>App 1</p>
+                                                </div>
+                                            </i>
+                                            <i class="fa-solid fa-link tab-icon">
+                                                <div class="box-icon2">
+                                                    <p>More Details</p>
+                                                </div>
+                                            </i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row img2 py-3">
+                                <img src="https://bootstrapmade.com/demo/templates/eNno/assets/img/portfolio/portfolio-6.jpg" width="100%">
+                                <div class="pop">
+                                    <div class="d-flex justify-content-between p-2">
+                                        <div class="app1 d-block">
+                                            <h5>App 3</h5>
+                                            <p>App</p>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <i class="fa-solid fa-plus tab-icon">
+                                                <div class="box-icon1">
+                                                    <p>App 3</p>
+                                                </div>
+                                            </i>
+                                            <i class="fa-solid fa-link tab-icon">
+                                                <div class="box-icon2">
+                                                    <p>More Details</p>
+                                                </div>
+                                            </i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 p-0">
+                            <div class="row img6 py-3">
+                                <img src="https://bootstrapmade.com/demo/templates/eNno/assets/img/portfolio/portfolio-2.jpg" width="100%">
+                                <div class="pop">
+                                    <div class="d-flex justify-content-between p-2">
+                                        <div class="app1 d-block">
+                                            <h5>Web 3</h5>
+                                            <p>Web</p>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <i class="fa-solid fa-plus tab-icon">
+                                                <div class="box-icon1">
+                                                    <p>Web 3</p>
+                                                </div>
+                                            </i>
+                                            <i class="fa-solid fa-link tab-icon">
+                                                <div class="box-icon2">
+                                                    <p>More Details</p>
+                                                </div>
+                                            </i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row img7 py-3">
+                                <img src="https://bootstrapmade.com/demo/templates/eNno/assets/img/portfolio/portfolio-5.jpg" width="100%">
+                                <div class="pop">
+                                    <div class="d-flex justify-content-between p-2">
+                                        <div class="app1 d-block">
+                                            <h5>Web 2</h5>
+                                            <p>Web</p>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <i class="fa-solid fa-plus tab-icon">
+                                                <div class="box-icon1">
+                                                    <p>Web 2</p>
+                                                </div>
+                                            </i>
+                                            <i class="fa-solid fa-link tab-icon">
+                                                <div class="box-icon2">
+                                                    <p>More Details</p>
+                                                </div>
+                                            </i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row img8 py-3">
+                                <img src="https://bootstrapmade.com/demo/templates/eNno/assets/img/portfolio/portfolio-9.jpg" width="100%">
+                                <div class="pop">
+                                    <div class="d-flex justify-content-between p-2">
+                                        <div class="app1 d-block">
+                                            <h5>Web 3</h5>
+                                            <p>Web</p>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <i class="fa-solid fa-plus tab-icon">
+                                                <div class="box-icon1">
+                                                    <p>Web 3</p>
+                                                </div>
+                                            </i>
+                                            <i class="fa-solid fa-link tab-icon">
+                                                <div class="box-icon2">
+                                                    <p>More Details</p>
+                                                </div>
+                                            </i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 p-0">
+                            <div class="row img6 py-3">
+                                <img src="https://bootstrapmade.com/demo/templates/eNno/assets/img/portfolio/portfolio-3.jpg" width="100%">
+                                <div class="pop">
+                                    <div class="d-flex justify-content-between p-2">
+                                        <div class="app1 d-block">
+                                            <h5>App 2</h5>
+                                            <p>App</p>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <i class="fa-solid fa-plus tab-icon">
+                                                <div class="box-icon1">
+                                                    <p>App 2</p>
+                                                </div>
+                                            </i>
+                                            <i class="fa-solid fa-link tab-icon">
+                                                <div class="box-icon2">
+                                                    <p>More Details</p>
+                                                </div>
+                                            </i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row img7 py-3">
+                                <img src="https://bootstrapmade.com/demo/templates/eNno/assets/img/portfolio/portfolio-4.jpg" width="100%">
+                                <div class="pop">
+                                    <div class="d-flex justify-content-between p-2">
+                                        <div class="app1 d-block">
+                                            <h5>Card2</h5>
+                                            <p>Card</p>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <i class="fa-solid fa-plus tab-icon">
+                                                <div class="box-icon1">
+                                                    <p>Card 2</p>
+                                                </div>
+                                            </i>
+                                            <i class="fa-solid fa-link tab-icon">
+                                                <div class="box-icon2">
+                                                    <p>More Details</p>
+                                                </div>
+                                            </i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row img8 py-3">
+                                <img src="https://bootstrapmade.com/demo/templates/eNno/assets/img/portfolio/portfolio-7.jpg" width="100%">
+                                <div class="pop">
+                                    <div class="d-flex justify-content-between p-2">
+                                        <div class="app1 d-block">
+                                            <h5>Card 1</h5>
+                                            <p>Card</p>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <i class="fa-solid fa-plus tab-icon">
+                                                <div class="box-icon1">
+                                                    <p>Card 1</p>
+                                                </div>
+                                            </i>
+                                            <i class="fa-solid fa-link tab-icon">
+                                                <div class="box-icon2">
+                                                    <p>More Details</p>
+                                                </div>
+                                            </i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row img9 py-3">
+                                <img src="https://bootstrapmade.com/demo/templates/eNno/assets/img/portfolio/portfolio-8.jpg" width="100%">
+                                <div class="pop">
+                                    <div class="d-flex justify-content-between p-2">
+                                        <div class="app1 d-block">
+                                            <h5>Card 3</h5>
+                                            <p>Card</p>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <i class="fa-solid fa-plus tab-icon">
+                                                <div class="box-icon1">
+                                                    <p>Card 3</p>
+                                                </div>
+                                            </i>
+                                            <i class="fa-solid fa-link tab-icon">
+                                                <div class="box-icon2">
+                                                    <p>More Details</p>
+                                                </div>
+                                            </i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonials -->
+        <section class="testimonials">
+            <div class="container">
+                
+                <div class="owl-carousel owl-theme">
+                    <div class="container main-box">
+                        <div class="wh-card">
+                            <p class="text-justify">
+                                <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, sapiente illo suscipit distinctio ratione saepe qui nisi, totam beatae tempora repellendus aut, fugiat est perspiciatis minus dolorem cupiditate illum. Doloribus!</i>
+                            </p>
+                        </div>
+                        <div class="prof">
+                            <img src="https://bootstrapmade.com/demo/templates/eNno/assets/img/testimonials/testimonials-2.jpg">
+                            <h4>Sara Wilson</h4>
+                            <p>Designer</p>
+                        </div>
+                    </div>
+                    <div class="container main-box">
+                        <div class="wh-card">
+                            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, sapiente illo suscipit distinctio ratione saepe qui nisi, totam beatae tempora repellendus aut, fugiat est perspiciatis minus dolorem cupiditate illum. Doloribus!</p>
+                        </div>
+                        <div class="prof">
+                            <img src="https://bootstrapmade.com/demo/templates/eNno/assets/img/testimonials/testimonials-3.jpg">
+                            <h4>Jena Karlis</h4>
+                            <p>Store Owner</p>
+                        </div>
+                    </div>
+                    <div class="container main-box">
+                        <div class="wh-card">
+                            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, sapiente illo suscipit distinctio ratione saepe qui nisi, totam beatae tempora repellendus aut, fugiat est perspiciatis minus dolorem cupiditate illum. Doloribus!</p>
+                        </div>
+                        <div class="prof">
+                            <img src="https://bootstrapmade.com/demo/templates/eNno/assets/img/testimonials/testimonials-4.jpg">
+                            <h4>Matt Brandon</h4>
+                            <p>Freelancer</p>
+                        </div>
+                    </div>
+                    <div class="container main-box">
+                        <div class="wh-card">
+                            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, sapiente illo suscipit distinctio ratione saepe qui nisi, totam beatae tempora repellendus aut, fugiat est perspiciatis minus dolorem cupiditate illum. Doloribus!</p>
+                        </div>
+                        <div class="prof">
+                            <img src="https://bootstrapmade.com/demo/templates/eNno/assets/img/testimonials/testimonials-5.jpg">
+                            <h4>John Larson</h4>
+                            <p>Enterpreneur</p>
+                        </div>
+                    </div>
+                    <div class="container main-box">
+                        <div class="wh-card">
+                            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, sapiente illo suscipit distinctio ratione saepe qui nisi, totam beatae tempora repellendus aut, fugiat est perspiciatis minus dolorem cupiditate illum. Doloribus!</p>
+                        </div>
+                        <div class="prof">
+                            <img src="https://bootstrapmade.com/demo/templates/eNno/assets/img/testimonials/testimonials-1.jpg">
+                            <h4>Saul Goodman</h4>
+                            <p>Ceo & Founder</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Call To Action-->
+        <section class="action">
+            <div>
+                <h3>Call To Action</h3>
+                <p class="pb-3">
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                    <br>
+                    qui officia deserunt mollit anim id est laborum
+                </p>
+                <button type="submit" class="btn btn-light action-btn">CALL TO ACTION</button>
+            </div>
+        </section>
+        <!-- Team -->
+        <section id="Team" class="team">
+            <div class="container-fluid">
+                <h1 style="padding-top: 60px;" class="behind">
+                    <b>TEAM</b>
+                </h1>
+                <h3 class="front fs-2">
+                    <b>TEAM</b>
+                </h3>
+                <P class="text-center pt-4 pb-3">Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</P>
+                <div class="container">
+                    <div class="row text-center team-row">
+                        <div class="col-md-4">
+                            <div class="card p-4 rounded-0 border-0">
+                                <img class="card-img-top rounded-0" src="https://bootstrapmade.com/demo/templates/eNno/assets/img/team/team-1.jpg">
+                                <div class="title">
+                                    <h5>Walter White</h5>
+                                    <i class="italic">Chief Executive Officer</i>
+                                </div>
+                                <div class="card-text">
+                                    <p>Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut</p>
+                                </div>
+                                <span>
+                                    <i class="fa-brands fa-twitter team-icon"></i>
+                                    <i class="fa-brands fa-facebook team-icon"></i>
+                                    <i class="fa-brands fa-instagram team-icon"></i>
+                                    <i class="fa-brands fa-linkedin team-icon"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card p-4 rounded-0 border-0">
+                                <img class="card-img-top rounded-0" src="https://bootstrapmade.com/demo/templates/eNno/assets/img/team/team-2.jpg">
+                                <div class="title">
+                                    <h5>Sarah Jhinson</h5>
+                                    <i class="italic">Product Manager</i>
+                                </div>
+                                <div class="card-text">
+                                    <p>Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus</p>
+                                </div>
+                                <span>
+                                    <i class="fa-brands fa-twitter team-icon"></i>
+                                    <i class="fa-brands fa-facebook team-icon"></i>
+                                    <i class="fa-brands fa-instagram team-icon"></i>
+                                    <i class="fa-brands fa-linkedin team-icon"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card p-4 rounded-0 border-0">
+                                <img class="card-img-top rounded-0" src="https://bootstrapmade.com/demo/templates/eNno/assets/img/team/team-3.jpg">
+                                <div class="title">
+                                    <h5>William Anderson</h5>
+                                    <i class="italic">CTO</i>
+                                </div>
+                                <div class="card-text">
+                                    <p>Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara</p>
+                                </div>
+                                <span>
+                                    <i class="fa-brands fa-twitter team-icon"></i>
+                                    <i class="fa-brands fa-facebook team-icon"></i>
+                                    <i class="fa-brands fa-instagram team-icon"></i>
+                                    <i class="fa-brands fa-linkedin team-icon"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact -->
+        <section id="Contact" class="contact">
+            <div class="container-fluid">
+                <h1 style="padding-top: 60px;" class="behind">
+                    <b>Contact</b>
+                </h1>
+                <h3 class="front fs-2">
+                    <b>Contact</b>
+                </h3>
+                <P class="text-center pt-4 pb-3">Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</P>
+                <div class="container pb-3">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="details">
+                                <div class="row detailbox">
+                                    <div class="col-md-2 iconbox">
+                                        <div class="iconholder">
+                                            <i class="fa-solid fa-location-dot"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <h3>Location</h3>
+                                        <p>A108 Adam Street, New York, NY 535022</p>
+                                    </div>
+                                </div>
+                                <div class="row detailbox">
+                                    <div class="col-md-2 iconbox">
+                                        <div class="iconholder">
+                                            <i class="fa-regular fa-envelope"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <h3>Email:</h3>
+                                        <p>info@example.com</p>
+                                    </div>
+                                </div>
+                                <div class="row detailbox">
+                                    <div class="col-md-2 iconbox">
+                                        <div class="iconholder">
+                                            <i class="fa-solid fa-mobile-screen-button"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <h3>Call:</h3>
+                                        <p>+1 5589 55488 55s</p>
+                                    </div>
+                                </div>
+                                <div class="row m-0">
+                                    <div class="map p-4">
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3946.1058149970577!2d76.95162937420821!3d8.489091791552285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bb6388bb616f%3A0x7c72a928cd70924b!2sEdure!5e0!3m2!1sen!2sin!4v1704091018955!5m2!1sen!2sin"
+                                            width="100%"
+                                            height="250"
+                                            style="border:0;"
+                                            allowfullscreen=""
+                                            loading="lazy"
+                                            referrerpolicy="no-referrer-when-downgrade"
+                                        ></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <div style="width: 100%;" class="details">
+                                <form>
+                                    <div class="row">
+                                        <div class="col-md-6 p-4">
+                                            <label>Your Name</label>
+                                            <input class="form-control" type="text">
+                                        </div>
+                                        <div class="col-md-6 p-4">
+                                            <label>Your Email</label>
+                                            <input class="form-control" type="text">
+                                        </div>
+                                        <div class="col-md-12 px-4 pb-4">
+                                            <label>Subject</label>
+                                            <input class="form-control" type="text">
+                                        </div>
+                                        <div class="col-md-12 px-4">
+                                            <label>Message</label>
+                                            <textarea class="form-control" rows="8"></textarea>
+                                        </div>
+                                    </div>
+                                    <center>
+                                        <button type="submit" class="btn btn-success contact-btn mt-4 px-4 py-2">Send Message</button>
+                                    </center>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer p-3 mt-5">
+
+            <div class="container">
+                <center>
+                    <h1>eNno</h1>
+                    <p class="py-4"><i>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime<br> saepe commodi placeat.</i></p>
+                    <div class="d-flex sub">
+                        <input type="text" placeholder="Enter your Email" class="form-control">
+                        <button type="button" class="btn btn-success subscribe py-2">Subscribe</button>
+                    </div>
+                    <div class="media-links pt-4">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-skype"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    <hr style="margin-top: 80px;">
+                </center>
+                <div class="copyright pt-4">
+                <p>&copy; Copyright <span><b>eNno.</b></span> All Rights Reserved</p>
+                <p>Designed by <span style="color: #16df7e;">BootstrapMade</span></p>
+            </div>
+            </div>
+        </footer>
+
+        <!--Arrow-->
+<div class="arrow">
+    <a href="#"><i class="fa-solid fa-arrow-up"></i> </a>   
+</div>
+
+
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+                <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+                <script
+                    src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+                    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+                    crossorigin="anonymous"
+                    referrerpolicy="no-referrer"
+                ></script>
+                <script>
+                    $('.owl-carousel').owlCarousel({
+
+   autoplay:true,
+   autoplayHoverPause:true,
+   dots:true,
+   loop:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        768:{
+            items:3
+        },
+        992:{
+            dotsEach:1,
+            items:3
+        },
+        1400:{
+            dotsEach:1,
+            items:5
+       }
+    }
+})
+                </script>
+            </body>
+        </html>
